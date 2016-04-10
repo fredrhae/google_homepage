@@ -31,10 +31,18 @@
 				<img id="logo" src="images/google_logo.png"/>
 				<div class="search_form">
 					<form action="search_query.php" method="POST">
-						<input type="text" name="search_query"/><br>
-						<div id="search_buttons">
+						<div class="search_query">
+							<input id="search_query_input" type="text" name="search_query"/>
+							<a href="">
+								<img id="keyboard" src="images/keyboard.png"/>
+							</a>
+							<a href="">
+								<img id="mic" src="images/mic.png"/>
+							</a>
+						</div>
+						<div class="search_buttons">
 							<input type="submit" name="normal_search_button" value="Pesquisa Google"/>
-							<input type="submit" name="im_lycky_button" value="Estou com Sorte"/>
+							<input type="submit" name="im_luycky_button" value="Estou com Sorte"/>
 						</div>
 					</form>
 				</div>
